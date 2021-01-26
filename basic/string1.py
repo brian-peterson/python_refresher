@@ -25,11 +25,7 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
   # +++your code here+++
-  if count >= 10:
-    print('Number of dounts: many')
-  else:
-    print('Number of dounts: ' + str(count))
-
+  return 'Number of donuts: many' if count >= 10 else 'Number of donuts: ' + str(count)
 
 # B. both_ends
 # Given a string s, return a string made of the first 2
